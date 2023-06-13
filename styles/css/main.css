@@ -59,7 +59,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-  color: #111;
+  color: rgb(0, 0, 0);
   font-weight: 800;
 }
 .home_text {
@@ -183,9 +183,9 @@
 }
 
 .skills__skill {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   margin-bottom: 1.5rem;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
@@ -228,6 +228,16 @@
   margin-bottom: 3rem;
   margin-left: 1.5rem;
   text-align: left;
+}
+
+#icons{
+  margin: 2rem;
+  align-items: center;
+}
+.icon-img{
+  margin: .5rem;
+  display: inline-flex;
+  
 }
 
 /* footer */
